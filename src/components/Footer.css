@@ -9,13 +9,10 @@
 #icon {
     display: flex;
     justify-content: space-around;
-}
-
-a {
     color: white;
 }
 
-a:hover {
+#icon:hover {
     color: yellowgreen;
     cursor: pointer;
 }
