@@ -1,0 +1,14 @@
+.navBar {
+    background-color: #3A1772;
+    padding: .8rem
+}
+
+#navText {
+    font-size: 20px;
+    color: white;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+#navText:hover {
+    color: yellowgreen;
+}
