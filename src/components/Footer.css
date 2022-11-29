@@ -1,0 +1,21 @@
+#footer {
+    background-color: #3A1772;
+    padding: 2rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#icon {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: yellowgreen;
+    cursor: pointer;
+}
