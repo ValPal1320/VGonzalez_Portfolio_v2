@@ -1,0 +1,31 @@
+.card {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    border-radius: 3rem;
+    box-shadow: 10px 10px 5px lavenderblush;
+
+}
+
+.aboutMe {
+    font-family: 'Noto Sans Mono', monospace;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 12px;
+    padding: .5rem;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+.imgCard {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.profilePic {
+    height: 25rem;
+    border-radius: 50%;
+    border: 4px solid yellowgreen;
+}
