@@ -1,14 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .card {
     width: 70%;
     margin: 0 auto;
     margin-top: 4rem;
     border-radius: 3rem;
-    box-shadow: 10px 10px 5px lavenderblush;
-
+    border: 5px solid yellowgreen;
 }
 
 .aboutMe {
-    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 

@@ -1,0 +1,20 @@
+#contactForm {
+    background-color: aqua;
+    width: 70%;
+    margin: 4rem auto;
+
+}
+
+.contactMe {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#formContent {
+    display: block;
+    width: 40%;
+}
+
+#messageBox {
+    width: 80%;
+}
