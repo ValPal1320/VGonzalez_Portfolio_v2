@@ -16,7 +16,6 @@ function Contact() {
     const regex = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
     const validateEmail = (e) => {
-        // alert('test');
         setEmail(e.target.value);
 
         if (regex.test(email) === false) {
@@ -28,54 +27,21 @@ function Contact() {
     }
 
     const submit = () => {
-        if (name !== '') {
-            setSubmitMsg('')
-        } else {
-            setErrorMessage('Name cannot be blank')
+        if (name) {
+            console.log("Name: " + name);
+        } if (email) {
+            console.log("Email: " + email);
+        } if (message) {
+            console.log("Message: " + message);
         }
-
-        // if (email != '') {
-        //     setSubmitMsg('')
-        // } else {
-        //     setErrorMessage('Email cannot be blank')
-        // }
-
-        // if (message != '') {
-        //     setSubmitMsg('')
-        // } else {
-        //     setErrorMessage('Message cannot be blank')
-        // }
     }
-
-
-    // const handleChange = (e) => {
-    //     const { target } = e;
-    //     const inputType = target.name;
-    //     const inputValue = target.value;
-    //     if (inputType === 'name') {
-    //         setName(inputValue);
-    //     } else if (inputType === 'email') {
-    //         setEmail(inputValue);
-    //     } else {
-    //         setMessage(inputValue);
-    //     }
-    // };
 
     const handleSubmit = (e) => {
         e.preventDefault();
         if (name.length === 0 || message.length === 0) {
             setErrorMessage(true);
-        } if (name) {
-            console.log(name);
         }
-        validateEmail();
     }
-
-    //     setName('');
-    //     setEmail('');
-    //     setMessage('');
-    //     setErrorMessage('');
-    // };
 
     return (
         <Form onSubmit={handleSubmit}>
@@ -113,8 +79,6 @@ function Contact() {
                         Submit
                     </Button>
                 </div>
-
-                <p>{submitMsg}</p>
             </div>
         </Form >
     );
