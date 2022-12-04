@@ -3,14 +3,22 @@ import profilepic from '../assets/imgs/profile.jpg'
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Diversity1Outlined } from '@mui/icons-material';
 
 function About() {
     return (
         <Card className="card">
             <Card.Body className="cardBody">
+                <Row className="welcome">
+                    <Card.Title>
+                        <h1>Hi! My name is <i>Valeria</i></h1>
+                        <h3>I am a Full Stack Developer.</h3>
+                        <h5>HTML || CSS || JavaScript || Node || React || GitHub</h5>
+                    </Card.Title>
+                </Row>
                 <Row>
                     <Card.Title className="aboutMe">
-                        <h1>About Me</h1>
+                        <h1><u>About Me</u></h1>
                     </Card.Title>
                     <Col>
                         <Card.Text>
@@ -26,7 +34,7 @@ function About() {
                     </Col>
                 </Row>
             </Card.Body>
-        </Card>
+        </Card >
     );
 }
 
