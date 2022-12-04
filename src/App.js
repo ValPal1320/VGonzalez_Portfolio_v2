@@ -12,14 +12,8 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <Route path="/">
-          <Home />
-        </Route>
         <div className="content">
           <Switch>
-            {/* <Route path="/">
-            <Home />
-          </Route> */}
             <Route path="/about-me">
               <About />
             </Route>
@@ -28,6 +22,9 @@ function App() {
             </Route>
             <Route path="/contact">
               <Contact />
+            </Route>
+            <Route path="/">
+              <Home />
             </Route>
           </Switch>
         </div>
