@@ -23,9 +23,9 @@
 }
 
 #formContent {
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 60%;
-
 }
 
 #messageBox {
@@ -56,4 +56,8 @@
 #submitBtn:hover {
     background-color: #C3ACCE;
     color: black;
+}
+
+#alert {
+    color: red;
 }
