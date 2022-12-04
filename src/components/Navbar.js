@@ -10,7 +10,7 @@ function Navbar() {
         <>
             <Nav className="justify-content-end navBar" activeKey="/home">
 
-                <a href="/home"><img src={Logo} alt='logo'></img></a>
+                <a href="/"><img src={Logo} alt='logo'></img></a>
 
                 <Nav.Item>
                     <a href="/about-me">
