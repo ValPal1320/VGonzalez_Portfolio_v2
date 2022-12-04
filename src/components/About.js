@@ -13,7 +13,7 @@ function About() {
                     <Card.Title>
                         <h1>Hi! My name is <i>Valeria</i></h1>
                         <h3>I am a Full Stack Developer.</h3>
-                        <h5>HTML || CSS || JavaScript || Node || React || GitHub</h5>
+                        <h5>HTML || CSS || JavaScript || Node || React || MERN || Express || SQL || GitHub</h5>
                     </Card.Title>
                 </Row>
                 <Row>

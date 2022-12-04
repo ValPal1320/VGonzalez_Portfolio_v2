@@ -2,6 +2,8 @@
     background-color: #310A31;
     padding: 2rem;
     width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 #icon {
