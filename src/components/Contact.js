@@ -11,7 +11,6 @@ function Contact() {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
-    const [submitMsg, setSubmitMsg] = useState('');
 
     const regex = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 

@@ -4,11 +4,10 @@ import './Navbar.css';
 import Logo from '../assets/imgs/vgon.png'
 import resume from '../assets/imgs/V_Gonzalez_Resume_2022.pdf';
 
-
 function Navbar() {
     return (
         <>
-            <Nav className="justify-content-end navBar" activeKey="/home">
+            <Nav className="justify-content-end navBar" activeKey="/about-me">
 
                 <a href="/"><img src={Logo} alt='logo'></img></a>
 
