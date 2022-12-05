@@ -13,7 +13,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 My updated portfolio using React App!
 
 ## Usage
-[HERE](https://drive.google.com/file/d/1TPgRP6tbJFzO1wKOb6TW88kv5ZhnMI1c/view)
+[Click HERE](https://valpal1320.github.io/vgonzalez_portfolio_v2/) for deployed application!
+
+![Portfolio Screenshot](/src/assets/imgs/screenshot.PNG)
 
 ## Technology
   * HTML
@@ -22,11 +24,11 @@ My updated portfolio using React App!
   * React Bootstrap
   * React Router
   * JavaScript
-  * 
 
 ## Future Development
 1. Highlight navbar buttons to indicate current page
 2. Responsiveness to different screen sizes
+3. Fix logo image to route back to About Me section
 
 ## Questions
 Have any questions? Please feel free to reach out!  
