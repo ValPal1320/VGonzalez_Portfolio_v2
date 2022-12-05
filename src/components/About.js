@@ -3,7 +3,6 @@ import profilepic from '../assets/imgs/profile.jpg'
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { Diversity1Outlined } from '@mui/icons-material';
 
 function About() {
     return (

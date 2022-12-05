@@ -4,11 +4,11 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Navbar />
         <div className="content">
@@ -29,7 +29,7 @@ function App() {
         </div>
         <Footer />
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
