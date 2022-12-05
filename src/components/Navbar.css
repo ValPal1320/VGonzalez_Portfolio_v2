@@ -12,6 +12,7 @@
     font-family: 'Noto Sans Mono', monospace;
     background-color: #310A31;
     border: none;
+    padding: 1rem;
 }
 
 #navText:hover {
