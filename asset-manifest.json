@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2e548fcc.css",
+    "main.js": "/static/js/main.e0491c5e.js",
+    "static/media/peace_of_mind.PNG": "/static/media/peace_of_mind.528722d665223178328a.PNG",
+    "static/media/V_Gonzalez_Resume_2022.pdf": "/static/media/V_Gonzalez_Resume_2022.0eb7353e52b6e2deafc1.pdf",
+    "static/media/trivia_on_the_rocks.PNG": "/static/media/trivia_on_the_rocks.9278b318cba0daf5b041.PNG",
+    "static/media/profile.jpg": "/static/media/profile.0c46c1937549f66f6fb4.jpg",
+    "static/media/work_scheduler.PNG": "/static/media/work_scheduler.726c5785efe0da520f1f.PNG",
+    "static/media/weather_dashboard.PNG": "/static/media/weather_dashboard.9e7175dab0d505203ac5.PNG",
+    "static/media/coding_quiz.PNG": "/static/media/coding_quiz.aaa39e2f2354d63ddde1.PNG",
+    "static/media/note_taker.PNG": "/static/media/note_taker.7f442261c1324593f734.PNG",
+    "static/media/vgon.png": "/static/media/vgon.96e83cc7ac36a5dd7c50.png",
+    "index.html": "/index.html",
+    "main.2e548fcc.css.map": "/static/css/main.2e548fcc.css.map",
+    "main.e0491c5e.js.map": "/static/js/main.e0491c5e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e548fcc.css",
+    "static/js/main.e0491c5e.js"
+  ]
+}
