@@ -2,6 +2,7 @@
   "name": "vgonzalez_portfolio_v2",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://valpal1320.github.io/vgonzalez_portfolio_v2/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",

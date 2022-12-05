@@ -10,7 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   * [Questions](#questions)
 
 ## Description
-The back-end for an e-commerce site. Allows the user/company to create a database and track the inventory of items in stock using JSON objects(GET, POST, PUT, DELETE).
+My updated portfolio using React App!
 
 ## Usage
 [HERE](https://drive.google.com/file/d/1TPgRP6tbJFzO1wKOb6TW88kv5ZhnMI1c/view)
@@ -22,7 +22,7 @@ The back-end for an e-commerce site. Allows the user/company to create a databas
   * React Bootstrap
   * React Router
   * JavaScript
-  *
+  * 
 
 ## Future Development
 1. Highlight navbar buttons to indicate current page
