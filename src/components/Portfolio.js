@@ -25,8 +25,8 @@ function Portfolio() {
                         <h3>Peace of Mind</h3>
                         <p id="description">With this site, users will be able to come together anonymously and support one another through the ups and downs of what life brings. Mental health is a serious concern and everyone deserve and need a safe space to be able to talk about it without the fear of judgment.</p>
                         <div id="links">
-                            <a href="https://peace-of-mind-app-v2.herokuapp.com/">Deployed Application</a>
-                            <a href="https://github.com/AndreaRene/Peace-Of-Mind_V2">GitHub Repository</a>
+                            <a href="url">Deployed Application</a>
+                            <a href="https://github.com/ValPal1320/Peace_of_Mind">GitHub Repository</a>
                         </div>
                     </Col>
                 </Row>
